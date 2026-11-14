@@ -39,7 +39,7 @@ The apartment has 35 twins from the Cyberwave catalog:
 ## Run the demo
 
 ```bash
-cp .env.example .env              # fill CYBERWAVE_API_KEY, SUPABASE_*, ANTHROPIC_API_KEY, twin ids
+cp .env.example .env              # fill CYBERWAVE_API_KEY, SUPABASE_*, LLM_API_KEY (+ optional LLM_MODEL, LLM_BASE_URL), twin ids
 python3 -m venv agent/.venv && agent/.venv/bin/pip install -r agent/requirements.txt
 # Supabase SQL editor: run supabase/schema.sql, v2.sql, v3.sql, sentry.sql, guardian.sql
 agent/.venv/bin/python build_home.py   # creates the Cyberwave apartment and prints twin ids
@@ -70,3 +70,7 @@ dashboard (guardian.html) ◀──Realtime── Supabase Postgres: incidents �
 The full write-up, in plain words and technical detail, is in [docs/TWINGATE_EXPLAINED.md](docs/TWINGATE_EXPLAINED.md).
 
 Runs in simulation today. The same code targets real robots by pointing the twin ids at live hardware.
+
+## Bring your own model
+
+No API key ships with this repo. Set `LLM_API_KEY` in `.env`. Optionally set `LLM_MODEL` (default `claude-opus-5-5`) and `LLM_BASE_URL` for any Anthropic-compatible endpoint. `MAX_SPEND_USD` caps spend.

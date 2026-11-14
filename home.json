@@ -1,0 +1,26 @@
+{
+ "environment": "ae980ceb-428a-4b37-898d-ffacd298dc75",
+ "slug": "aryans-workspace-3/envs/guardianhome-fall-response-digital-twin",
+ "viewer": "https://cyberwave.com/environment-viewer?uuid=ae980ceb-428a-4b37-898d-ffacd298dc75&public_key=i3dJzR62BTdSZAf-o2cas7aMuXeq1lqFIfptEI-isjQ",
+ "twins": {
+  "Floor": "49e6e9c3-650a-47a5-a42b-cbafbd8d9428",
+  "Wall North": "dfee7b80-345d-49e3-ac71-caf10294af38",
+  "Wall South": "143aaa06-1221-4bf2-a10b-549d63c97c42",
+  "Wall West": "4554f6aa-d1ac-4c69-8852-95259a535296",
+  "Wall East": "9f28eac8-8c05-4be4-9baa-961578b7b23f",
+  "Wall Bedroom (south part)": "1c5caad8-5f29-41a4-904e-a20958bfdcff",
+  "Wall Bedroom (north part)": "79018add-2465-4b5b-95db-f19ff6f66bae",
+  "Bed": "188970a6-1399-4c34-a7b5-bf4a188e27cd",
+  "Medicine Counter": "5de24ac8-fb9e-4e09-b732-abd2a25d9fe4",
+  "Nightstand": "7b1e5707-7de4-4554-9710-3bd1270c2eca",
+  "Sofa": "b63b1476-2e0d-4416-b6f3-e4fb29a21291",
+  "Coffee Table": "c1b39244-9eb6-4aa1-9728-e8f4a3bbf3da",
+  "Pill Organizer": "c184f2c1-2682-4637-985b-ad69bf94b766",
+  "Escort Quadruped (Go2)": "519fcdba-7b8e-478c-96ac-e3abc3ecfc95",
+  "Charging Dock": "1a7b3411-9ff6-49cb-afad-9a40d7ce6c05",
+  "Response Rover (TurtleBot3)": "ff58c0ce-208d-4293-8f33-eff4261aba5a",
+  "Medication Arm (SO-101)": "2a3237bf-0fc5-4024-a3da-4c39b480b18f",
+  "Resident (avatar)": "b3f0d473-d78e-4864-8afc-246ef81d3341",
+  "Room Camera": "1683bfd1-1564-47c5-8e08-955a88a3b6b7"
+ }
+}
